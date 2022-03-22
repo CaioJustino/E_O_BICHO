@@ -1,15 +1,15 @@
 # **Repositório - É O BICHO**
 
-Ailton - Validar CPF, Animal, Deficiencia e Carteira de Vacina
+Ailton - Validar CPF, Pessoa, Endereço e Adotante - AJUDAR ANIMAL E ONG
 
-Aslam - Endereço
+Aslam - Carteira de Vacina
 
 Bianca - Adocao
 
-Bruna - Adotante
+Bruna - Animal
 
 Caio - ONG
 
 Darllyane - Vacinar
 
-Melissa - Pessoa
+Melissa - Deficiencia
