@@ -7,7 +7,7 @@ class BancoDeDados():
     self.__bd_pessoas={}
 
   def add_pessoa(self, pessoa):
-    if self.__bd_pessoas[pessoa.cpf]:
+    if pessoa.cpf in self.__bd_pessoas:
       return None
     self.__bd_pessoas[pessoa.cpf]=pessoa
 
@@ -17,7 +17,7 @@ class BancoDeDados():
     return self.__bd_pessoas
 
   def add_animal(self, animal):
-    if self.__bd_animais[animal._animal_id]:
+    if animal._animal_id in self.__bd_animais:
       return None
     self.__bd_animais[animal._animal_id]=animal
 
@@ -93,7 +93,7 @@ class Adotante(Pessoa):
     self.__animais_adotados.append(adocao.buscarAnimais(id))
     animal = adocao.buscarAnimais(id)
     animal.adotado=True
-    adocao.removerAnimalAdotado(id)
+    adocao.removerAnimal(id)
     
   def buscar(self, id):
     for c in self.__animais_adotados:
