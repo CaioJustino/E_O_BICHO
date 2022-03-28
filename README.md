@@ -1,6 +1,6 @@
 # **Repositório - É O BICHO**
 
-Ailton - Validar CPF, Pessoa, Endereço e Adotante - AJUDAR ANIMAL E ONG
+Ailton - Validar CPF, Pessoa, Endereço e Adotante
 
 Aslam - Carteira de Vacina
 
